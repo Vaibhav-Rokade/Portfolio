@@ -1,0 +1,188 @@
+body
+{
+	background: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+#navbar
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	background: #000000;
+}
+
+ul
+{
+	margin-right:120px !important;
+}
+
+ul li
+{
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+}
+
+li a 
+{
+	color: white;
+	font-size: 18px;
+	padding: 13px;
+}
+
+li a:hover
+{
+	color: whitesmoke;
+	text-decoration: none;
+	border-bottom: 3px solid #ff004f;
+}
+
+/*------------------------body part------------------------*/
+
+#back-img
+	{
+	    width: 100%;
+	    height: 650px;
+	    background-image: url(bg.jpg);
+	    background-size: cover;
+	    background-position: center;
+	}
+
+
+.head-font
+{
+	font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#head-font
+{
+	font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tab-titles
+{
+	font-size: 18px;
+	color: white;
+}
+
+.tab-titles p
+{
+	padding: 10px;
+}
+
+.tab-titles p:hover
+{
+	border-bottom: 3px solid #b54769;
+	cursor: pointer;
+}
+
+ul li span
+{
+	color: #b54769;
+	font-size: 20px
+}
+
+#education,#experience
+{
+	display: none;
+}
+
+#icon-img
+{
+	font-size: 50px;
+}
+
+#card-hover:hover
+{
+	padding-bottom: 10px !important;
+	padding-top: 15px !important;
+	margin-top: -15px !important;
+	background-color: #ff004f !important;
+	color: white;
+}
+
+#card-hover
+{
+	transition-duration: 0.5s;
+}
+
+.con-text
+{
+	font-size:23px;
+	color: white;
+}
+button a
+{
+	text-decoration: none !important;
+}
+
+.borderinp
+{
+	border: none !important;
+}
+
+.layerbox img
+{
+	position:relative;
+	display: block;
+}
+
+.layer
+{	position: relative;
+	height: 500px;
+	width: 100%;
+	display: none;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.3),rgba(255, 0, 79, 1),rgba(255, 0, 79, 1));
+	transition-duration: 0.5s !important;
+}
+.layerbox:hover .layer
+{
+	display: block;
+	margin-top: -500px !important;
+}
+
+.layer h3
+{
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.layer p
+{
+margin-top: 20px;
+}
+.layer a
+{
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.2em;
+	padding: 18px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+.layer a:hover
+{
+	background-color: #fff;
+	color: black;
+}
